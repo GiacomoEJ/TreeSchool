@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Blue Egg</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <img class="image1" src="https://i.pinimg.com/736x/6f/2d/3e/6f2d3ef2d585c0d78ade3cd7acee43b4.jpg" alt="logo">
+            <h1 class="h1">Registrazione</h1>
+            <nav class="navbar">
+                <div>
+                    <li class="link"><strong>Home</strong></li>
+                    <li class="link"><strong>About</strong></li>
+                    <li class="link"><strong>Contacts</strong></li>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Modulo -->
+        <main>
+            <form class="module">
+                <p><strong>Inserisci i tuoi dati</strong></p>
+
+                <label for="name">Nome: </label>
+                <input 
+                    name="name" 
+                    id="name" 
+                    type="text"
+                    placeholder="Mario" 
+                    required>
+                </input>
+
+                <label for="surname">Cognome: </label>
+                <input 
+                    name="surname" 
+                    id="surname"
+                    type="text" 
+                    placeholder="Rossi" 
+                    required>
+                </input>
+            
+                <label for="dateofbirth">Data di nascita: </label>
+                <input 
+                    name="dateofbirth"
+                    id="dateofbirth"
+                    type="date"
+                    required>
+                </input>
+
+                <label for="email">E-mail: </label>
+                <input 
+                    name="email" 
+                    id="email" 
+                    type="email" 
+                    placeholder="mariorossi@dominio.it" 
+                    required>
+                </input>
+        
+                <br>
+                
+                <input class="resetbtn" type="reset" value="Reset">
+                <br>
+                <input class="submitbtn" type="submit" value="Invia">
+            </form>
+        </main>
+        <br>
+        <footer class="footer">
+            <li><a href="www.facebook.com">Facebook</a></li>
+            <li><a href="www.Instagram">Instagram</a></li>
+            <li><a href="https://twitter.com">X</a></li>
+        </footer>
+    </body>
+</html>
