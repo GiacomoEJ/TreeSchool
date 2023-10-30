@@ -1,0 +1,52 @@
+@import "./variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: $primary-color;
+    .header{
+        display: flex;
+        justify-content: right;
+        background-color: $dark-color;
+        padding: 15px;
+        .navbar{
+            display: flex;
+            gap: 10px;
+            font-size: 15px;
+
+            .lin{
+                color: $light-color;
+                list-style-type: none;
+            }
+        }
+    }
+    main{
+        h1{
+        font-family: $name-font;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 20px 0 20px 30px;
+        }
+        .div1{
+            display: flex;
+            margin: 10px;
+            @include display-flex;
+            
+            .intro{
+                font-size: 13px;
+            }
+            .image{
+                background-color: $secondary-color;
+                border-radius: 100%;
+                height: 130px;
+                margin-right: 10px;
+            }
+        }
+        .socialbar{
+            display: flex;
+            background-color: $light-color;
+        }
+    }
+  }
